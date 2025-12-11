@@ -40,7 +40,7 @@ const createData = (
         children: childrenNumber
           ? createData(maxDeep, maxChildren, childrenNumber, deep + 1, nodeKey)
           : undefined,
-        disabled: nodeKey.includes('2'),
+        disabled: nodeKey.includes('5'),
       }
     })
 }
